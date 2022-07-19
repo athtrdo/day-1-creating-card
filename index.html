@@ -1,89 +1,80 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Creating card</title>
-   
-</head>
-<body>
-    <style>
-        body{
-            background: #a7a2a233;
-        }
-    </style>
-    <div 
-        style="
-        background-color: white;
-        margin: auto;
-        margin-top: 85px;
-        width: 1150px;
-        border-radius: 12px;
-        border: solid 1px #00000033;
-        padding: 15px; 
-        box-shadow: 0px 0px 20px #00000040;
-        ">
-        <div style="
-        background-color: white;
-        margin: auto;
-        margin-top: 60px;
-        width: 600px;
-        border-radius: 14px;
-        padding:0; 
-        ">
-        <div>
-            <h1>Hi Welcome to my website</h1>
-            <p style="color:rgb(0, 0, 0); text-align: left ">Perkenalkan nama saya aji, saya menyukai bidang it terutama berkaitan dengan aplikasi atau produk digital lainya, alasan saya ikut bootcamp agar bisa menjadi programmer yg berkompeten</p>
-
-             <a href="https://wa.me/6285727234413?text=" ><img src="img/whatsapp-button.png" width="190px" height="75px"></a>
-
-             <a href="CV Aji Tri Hardono.pdf" download="CV">
-                <p style="color: black; text-decoration:none;"><b>Download CV</b>  <img src="img/downloading-updates.png" width="30px" height="30px"></p>   
-
-
-             </a>
-            <br>
-            <div style="
-            background-color: white;
-            margin: auto;
-            margin-top:0;
-            width: 250px;
-            
-            padding:0; 
-            ">
-            <span>
-                <a href="https://www.linkedin.com/in/aji-tri-hardono-a90a84212/"><img src="img/linkedin--v1.png"  width="50px" height="50px"></a>
-                <a href="https://instagram.com/ajitrih_99?igshid=YmMyMTA2M2Y="><img src="img/instagram-new--v1.png" width="50px" height="50px"></a>
-                <a href="https://www.facebook.com/ajitrih99"><img src="img/facebook-new.png" width="50px" height="50px"></a>
-                <a href="https://mobile.twitter.com/ajitrih_99"><img src="img/twitter--v2.png" width="50px" height="50px"></a>     
-            </span>
-            <br>
-            <br>
-            <br>
-
+    <head>
+        <title>Creating Form, Navbar & Layouting</title>
+        <link rel="stylesheet" href="./assets/style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+       <nav>
+            <div class="left-side">
+                <img src="./assets/img/logo.png" alt="">
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#">My project</a>
+                </div>
             </div>
-        <div style="
-        background-color: white;
-        margin: auto;
-        margin-top:0;
-        width: 350px;
-        border-radius:14px;
-        border: solid 1px #00000033;
-        padding: 0; 
-        box-shadow: 0px 0px 20px #00000040;
-        ">
-               
-        <div><img src="img/IMG-20210910-WA0000.jpg" style="width: 100%; 
-        border-top-left-radius:14px; 
-        border-top-right-radius:14px ;">
-        
-            <h1 style="text-align: center; font-family:Helvetica, sans-serif; font-size: 30px;">Aji Tri H</h1>
-            <h4 style="text-align: center;">Fullstack Developer</h4>
-        </div>
-        </div>
-    </div>
-</div> 
+            <div class="right-side">
+                <a href="contact-me.html">Contact Me</a>
+            </div>
+       </nav>
 
+       <div class="container">
+            <div class="wrapper">
+                
+                <div class="left-side">
+                    <h1>Hi Welcome to my Website</h1>
+                    <p>Perkenalkan nama saya aji, saya menyukai bidang it terutama berkaitan dengan aplikasi atau produk digital lainya, alasan saya ikut
+                         bootcamp agar bisa menjadi programmer yg berkompeten. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae magni quae modi, iure maiores, architecto non explicabo maxime assumenda, quidem quis dolores ex. 
+                         Incidunt officia eum nobis natus quasi deserunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus dicta excepturi eaque voluptatibus. Voluptatibus architecto, tempora repellendus fuga sunt,
+                         magni odit laborum quas cum blanditiis soluta earum ipsa nesciunt quisquam.</p>
+                    <div class="skill">
+                        <div class="contact">
+                            <a href="https://wa.me/6285727234413?text=" target="_blank">Contact</a>
+                        </div>
+                        <div class="item">
+                            <a href="assets/img/CV Aji Tri Hardono.pdf" download="CV">Download CV<img src="assets/img/downloading-updates.png" width="30px" height="30px"></a>                        </div>
+                    </div>
+                    <div class="sosmed">
+                        <div class="sosmed-wrapper">
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/aji-tri-hardono-a90a84212/" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://instagram.com/ajitrih_99?igshid=YmMyMTA2M2Y=" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.facebook.com/ajitrih99" target="_blank">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://mobile.twitter.com/ajitrih_99" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
 
-</body>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="image" style="margin-left:auto;">
+                    <img src="assets/img/IMG-20210910-WA0000.jpg" style= "width: 100%;
+                    border-top-left-radius:14px; 
+                    border-top-right-radius:14px;">
+                    
+                        <h1 style="text-align: center; font-family:Helvetica, sans-serif; font-size: 30px;">Aji Tri H</h1>
+                        <h4 style="text-align: center;">Fullstack Developer</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+
+    </body>
 </html>
-
-
